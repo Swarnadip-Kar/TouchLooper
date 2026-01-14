@@ -1,0 +1,31 @@
+# Open Stage Control cache
+.state
+*.log
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+
+# Gemini files
+.gemini/
+.gemini-history.json
+
+# Keep version backups (we want to track them)
+!versions/

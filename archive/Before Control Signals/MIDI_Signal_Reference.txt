@@ -1,0 +1,48 @@
+
+ALL FOUR TABS - COMPLETE SESSION
+=================================
+
+✓ File: All_Four_Tabs_Complete.json
+
+METRONOME VOLUME KNOB:
+- Widget ID: "metronome_knob" (SAME on all tabs)
+- MIDI Signal: Channel 1, CC 16
+- Shared across all tabs
+
+MIDI SIGNALS PER TRACK:
+-----------------------
+Track 1 (T1):
+  • Play: Note 60  | Stop: Note 61  | Overdub: Note 62
+  • Undo: Note 64  | Clear: Note 65 | Double: CC 93
+  • Volume: CC 7   | Feedback: CC 11
+  • Reverb: CC 91  | Delay: CC 92
+
+Track 2 (T2):
+  • Play: Note 66  | Stop: Note 67  | Overdub: Note 68
+  • Undo: Note 70  | Clear: Note 71 | Double: CC 96
+  • Volume: CC 8   | Feedback: CC 12
+  • Reverb: CC 94  | Delay: CC 95
+
+Track 3 (T3):
+  • Play: Note 72  | Stop: Note 73  | Overdub: Note 74
+  • Undo: Note 76  | Clear: Note 77 | Double: CC 99
+  • Volume: CC 9   | Feedback: CC 13
+  • Reverb: CC 97  | Delay: CC 98
+
+Track 4 (T4):
+  • Play: Note 78  | Stop: Note 79  | Overdub: Note 80
+  • Undo: Note 82  | Clear: Note 83 | Double: CC 102
+  • Volume: CC 10  | Feedback: CC 14
+  • Reverb: CC 100 | Delay: CC 101
+
+GLOBAL CONTROLS (Same on all tabs):
+  • Global Play: Note 58
+  • Global Stop: Note 57
+  • Global Metronome: Note 59
+  • Metronome Volume: CC 16
+
+USAGE:
+1. Open Open Stage Control
+2. Load the All_Four_Tabs_Complete.json file
+3. All 4 tabs will appear with identical layout
+4. Metronome volume control is synchronized across all tabs

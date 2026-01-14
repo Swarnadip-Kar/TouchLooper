@@ -1,0 +1,25 @@
+// Comment this code out when Mapping MIDI
+
+switch(value) {
+  case 0: send('midi:daw', '/note', 1, 60, 127); break;
+  case 1: send('midi:daw', '/note', 1, 61, 127); break;
+  case 2: send('midi:daw', '/note', 1, 62, 127); break;
+  case 3: send('midi:daw', '/note', 1, 63, 127); break;
+  case 4: send('midi:daw', '/note', 1, 64, 127); break;
+}
+
+
+//placed in onTouch Argument of Root
+//When Mapping this if enabled will give ghost signals causing difficulty in mapping
+//also don't change to control signal as it will hamper track change
+
+
+//Notes For Speed Knob
+<!----
+why min not zero?
+the first 0,1,2,3 bitvalue  go to -3.20, -3.15, -3.10,-3.05
+
+strating from 3 to make symmetric 
+sanme the last last 125 ,126, 127 go beyond 3,
+so they have been blocked
+>
