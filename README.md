@@ -67,7 +67,7 @@ As performing musicians, we needed hands-free control of looping setups during l
 *Reverb and delay controls with global metronome*
 
 ### Live Performance
-![Live Performance](images/live-performance.jpg)
+![Live Performance](images/live-performance.png)
 *In action during practice session*
 
 ## 🚀 Quick Start
