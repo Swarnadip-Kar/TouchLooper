@@ -1,13 +1,12 @@
 // Comment this code out when Mapping MIDI
 
 switch(value) {
-  case 0: send('midi:daw', '/note', 1, 60, 127); break;
-  case 1: send('midi:daw', '/note', 1, 61, 127); break;
-  case 2: send('midi:daw', '/note', 1, 62, 127); break;
-  case 3: send('midi:daw', '/note', 1, 63, 127); break;
-  case 4: send('midi:daw', '/note', 1, 64, 127); break;
+  case 0: send('midi:daw', '/note', 16, 123, 127); break;
+  case 1: send('midi:daw', '/note', 16, 124, 127); break;
+  case 2: send('midi:daw', '/note', 16, 125, 127); break;
+  case 3: send('midi:daw', '/note', 16, 126, 127); break;
+  case 4: send('midi:daw', '/note', 16, 127, 127); break;
 }
-
 
 //placed in onTouch Argument of Root
 //When Mapping this if enabled will give ghost signals causing difficulty in mapping

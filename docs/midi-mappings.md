@@ -143,11 +143,11 @@ Send 127 on press, 0 on release:
 Located in root widget, commented out by default:
 ```javascript
 // switch(value) {
-//   case 0: send('midi:daw', '/note', 1, 40, 127); // T1
-//   case 1: send('midi:daw', '/note', 1, 41, 127); // T2
-//   case 2: send('midi:daw', '/note', 1, 42, 127); // T3
-//   case 3: send('midi:daw', '/note', 1, 43, 127); // T4
-//   case 4: send('midi:daw', '/note', 1, 44, 127); // MST
+//   case 0: send('midi:daw', '/note', 16, 123, 127); break;
+//   case 1: send('midi:daw', '/note', 16, 124, 127); break;
+//   case 2: send('midi:daw', '/note', 16, 125, 127); break;
+//   case 3: send('midi:daw', '/note', 16, 126, 127); break;
+//   case 4: send('midi:daw', '/note', 16, 127, 127); break;
 // }
 ```
 **Purpose**: Auto-focus corresponding track in DAW when switching tabs.  
